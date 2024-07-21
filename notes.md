@@ -203,9 +203,13 @@ Data Validation
 
 
 # Module 5
-While loops
+## While loops
 Unknown number of iterations
 
-For Loops
+## For Loops
 Fixed number of iterations
+`for VARIABLE in ITEMS:
+    STATEMENTS`
+
+
 
