@@ -20,7 +20,7 @@ Pre made code to do something specific
 Little workers 
 Examples
 print()
-You can add end = ‘ ‘ and  sep = ‘ ‘
+You can add `end = ‘ ‘` and  `sep = ‘ ‘`
 \n adds a line break
 \t adds a tab
 input()
@@ -47,88 +47,88 @@ Can’t use reserved python words
 
 # Module 2
 
-Commenting
+## Commenting
 You can use “”” “”” for multiple line commenting
 You can use # for single line commenting
 
-Data types
+## Data types
 Strings
 Any combination of characters contained in delimiters 
-var 1 = “birds”
+`var 1 = “birds”`
 
-Numeric literals
+## Numeric literals
 Integer
+
 Whole number (never have decimal points)
-var2 = 5
-Floating point value
-Any number with a decimal point
-var3 = 6.0
+`var2 = 5`
+
+Floating point value (Any number with a decimal point)
+`var3 = 6.0`
 
 Logical values (booleans → true/false) 
 isSaturday = false
 
 You can print out the type of data a variable is by using the function type()
-[Example] print(type(var1))
+[Example] `print(type(var1))`
 
-Data Type conversions
+## Data Type conversions
 There are a variety of python functions which will help change one data type into another
 int → float  you use float()
 Float → int you use int()
 Float/int → string you use str()
 
 
-Mathematical operations
+## Mathematical operations
 
-Division operators 
+## Division operators 
 There’s two types
-Floating point division
-(5/2) = 2.5
-Integer Division
+
+## Floating point division
+`(5/2) = 2.5`
+
+## Integer Division
 The // for integer division will just round down to the nearest whole number 
-(5//2) = 2   
-(-5//2) = -3 
-Exponent operator
-(2 ** 4) = 16   ← 2^4
-(4 ** .5) = 2      ← Square root of a number
+`(5//2) = 2   `
+`(-5//2) = -3 `
 
-Mod operator
-(5 % 2) = 1
+## Exponent operator
+`(2 ** 4) = 16`   ← 2^4
+`(4 ** .5) = 2`      ← Square root of a number
 
-Mixed type operations
+## Mod operator
+`(5 % 2) = 1`
+
+## Mixed type operations
 Can't subtract or divide strings but you can add and multiply
 
-
-
-Different math functions
-Math.floor
-Math.ceil
+## Different math functions
+`Math.floor`
+`Math.ceil`
 
 
 
-The format Function
+## The format Function
 format(value, format_spec=””)
 PI = 3.1415926   # a float 
-format(PI,  “>10.2f”)
+`format(PI,  “>10.2f”)`
 
-Always returns a string
+*Always returns a string*
 
 
-Errors
+## Errors
 
-Syntax Errors
+## Syntax Errors
 Does not follow the rules of the language
 
-Runtime Errors
+## Runtime Errors
 Code is fine but the program crashes
 
-Logic Errors
+## Logic Errors
 Code is fine but what happens is not what is wanted
 
 
 
-
-
-Module 3
+# Module 3
 
 Boolean
 Data type
@@ -170,7 +170,7 @@ Random Module
 Turtle Module
 
 
-Module 4
+# Module 4
 
 While loop
 A condition-controlled loop (repeats statements as long as condition is true
@@ -197,7 +197,7 @@ Data Validation
 
 
 
-Module 5
+# Module 5
 While loops
 Unknown number of iterations
 
