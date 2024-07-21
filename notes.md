@@ -21,20 +21,22 @@ Little workers
 Examples
 print()
 You can add `end = ‘ ‘` and  `sep = ‘ ‘`
-\n adds a line break
-\t adds a tab
+`\n`adds a line break
+`\t` adds a tab
 input()
 Does : it asks the user a question
 Returns: the answer of the user 
 
 ## Strings
 Delimiters (Characters that show the beginning and end of a string)
-You can use (“hi”, ‘hi’, “””hi”””, ‘’’hi’’’)
+You can use (`“hi”`, `‘hi’`, `“””hi”””`, `‘’’hi’’’`)
 
 ## Different types of strings 
-String literals
-A combination of character data  in delimiters
-Numeric literals
+
+## String literals
+A combination of character data in delimiters
+
+## Numeric literals
 numbers!
 
 ## Variables
@@ -130,55 +132,59 @@ Code is fine but what happens is not what is wanted
 
 # Module 3
 
-Boolean
+## Boolean
 Data type
-Values can be True or False
-Case sensitive, must be capitalized (True and False)
+*Values can be True or False*
+*Case sensitive, must be capitalized (True and False)*
 
-Ways to check boolean values
-(==) →If It is equal
-(!=) →If it is not equal
-Can wrap it in other statements (ex: print(1 == 1) → True
+## Ways to check boolean values
+`==` →If It is equal
+`!=` →If it is not equal
+Can wrap it in other statements (ex: `print(1 == 1)` → True
 
 
 
-Opporations
+## Opporations
 
-Comparison Operators
+## Comparison Operators
 
-Logical Operators
+## Logical Operators
 	
 
-Order of Operations(First: Mathematical,  Second: Comparison, Third: Logical Operators)
-Order of Logical Operators (First: not,  Second: and, Third: or)
+*Order of Operations(First: Mathematical,  Second: Comparison, Third: Logical Operators)*
+*Order of Logical Operators (First: not,  Second: and, Third: or)*
 
 
-Conditionals
+## Conditionals
 
 
 
-Python recognizes 0 as false and any other integer as true
+*Python recognizes 0 as false and any other integer as true*
 
-Modules
+
+## Modules
+
 Must import modules first then it can be in use
 Kind of Like JavaScript tools
 They have their own special functions
-Math Module
 
-Random Module
+*Math Module*
 
-Turtle Module
+*Random Module*
+
+*Turtle Module*
+
 
 
 # Module 4
 
-While loop
+## While loop
 A condition-controlled loop (repeats statements as long as condition is true
 
-while condition:
+`while condition:
 	Statement
 	Statement
-	Statement
+	Statement`
 
 Control variable → Keeps track of weather or not we should keep looping 
 Accumulator variable → Defined globally and can be used as a self referential variable assignment
@@ -188,7 +194,6 @@ Break
 
 Continue
 → keyword to iterate the loop again
-
 
 Sentinels
 A predefined value that the user can type in to indicate that they are finished entering data 
